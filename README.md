@@ -13,7 +13,7 @@ HOW TO USE
     gnuplot.write("plot a*x")  
     gnuplot.write("print a")  
     print gnuplot.read()  
-    gi.close_window()  
+    gnuplot.close_window()  
 
 If you want to use "fit" command, please use it as follows:
 
