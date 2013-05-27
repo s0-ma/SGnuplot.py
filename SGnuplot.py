@@ -3,7 +3,7 @@
 import subprocess
 import os
 
-class GnuplotInterface:
+class SGnuplot:
 
     def __init__(self):
             self.gnuplot_command = "gnuplot"

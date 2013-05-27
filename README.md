@@ -1,14 +1,14 @@
-GnuplotInterface.py
+SGnuplot.py
 ===================
 
 OVERVIEW
 --------
-GnuplotInterface.py is a simplest gnuplot controller for Python.
+SGnuplot.py is a simplest python interface for gnuplot.
 
 HOW TO USE
 ----------
-    import GnuplotInterface  
-    gnuplot = GnuplotInterface.GnuplotInterface()  
+    import SGnuplot  
+    gnuplot = SGnuplot.SGnuplot()  
     gnuplot.write("a = 3.14")  
     gnuplot.write("plot a*x")  
     gnuplot.write("print a")  
@@ -28,7 +28,7 @@ Now prepearing. Please see the script itself.
 
 LICENCE
 -------
-This program is free software; you can redistribute and/or modify it.
+This program is free; you can redistribute and/or modify it.
 
 AUTHOR
 ------
